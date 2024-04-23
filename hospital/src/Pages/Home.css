@@ -1,0 +1,27 @@
+.topbar {
+    background-color:#008000;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; /* Add padding for better spacing */
+  }
+  
+  .dis ul,
+  .other ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .dis ul li,
+  .other ul li {
+    display: inline-block; /* Display the list items horizontally */
+    margin-right: 10px; /* Add some spacing between list items */
+  }
+  
+  .dis ul li:last-child,
+  .other ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
