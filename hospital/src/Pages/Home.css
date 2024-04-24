@@ -13,6 +13,11 @@
     margin: 0;
     list-style: none;
   }
+  .dis ul li:hover,
+.other ul li:hover {
+  font-weight: bold; /* Change font weight on hover */
+  color: black;
+}
   
   .dis ul li,
   .other ul li {
